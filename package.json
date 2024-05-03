@@ -1,0 +1,24 @@
+{
+  "name": "amazon-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/othonoliveira/Amazon-Scrapper.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/othonoliveira/Amazon-Scrapper/issues"
+  },
+  "homepage": "https://github.com/othonoliveira/Amazon-Scrapper#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
