@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/othonoliveira/Amazon-Scrapper#readme",
   "dependencies": {
+    "ajax": "^0.0.4",
     "axios": "^1.6.8",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsdom": "^24.0.0"
