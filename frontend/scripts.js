@@ -1,8 +1,8 @@
 // This is the search function, responsable for fetching the data and creating the elements in the page
 
-const search = async (event) => {
+const search = async (_event) => {
   // Using the endpoint to get the datar from the backend
-  
+
   var searchText = document.querySelector('.search_text').value;
   var url = `http://localhost:3000/api/scrape?keyword=${searchText}`;
   const request = await fetch((url), {
