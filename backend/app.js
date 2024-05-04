@@ -1,5 +1,7 @@
+// Here it's the initialization of express
+
 const express = require('express');
-const scrappeRouter = require('./routes/router.scrappe')
+const scrapeRouter = require('./routes/router.scrape')
 
 const app = express();
 
@@ -10,6 +12,8 @@ app.get('/', (_request, response) => {
 
 app.use(express.json());
 
-app.use('/api/scrape', scrappeRouter);
+// Than it's added the router to the aplication
+
+app.use('/api', scrapeRouter);
 
 module.exports = app;

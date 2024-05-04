@@ -1,3 +1,5 @@
+// This is simple the configuration of a simple server
+
 require('dotenv').config();
 const app = require('./app');
 
