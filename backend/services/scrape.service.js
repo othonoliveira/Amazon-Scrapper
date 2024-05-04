@@ -27,7 +27,7 @@ const getAmazonProducts = async (keyword) => {
 
   if (productsCount <= 0) return { status: 404, message: 'No products found' };
 
-   // Than create a array so store the products info, and go through all the existing products on the page and pushing the info to the array, while also place a NOT FOUND when the information is not displayed
+  // Than create a array so store the products info, and go through all the existing products on the page and pushing the info to the array, while also place a NOT FOUND when the information is not displayed
 
   const products = [];
 
@@ -36,7 +36,7 @@ const getAmazonProducts = async (keyword) => {
       .getAttribute('src') ?? 'Not Found';
 
     // This have if statements because its needed to check if the they exist, because if not it will throw a error since we need to get the innerHTML
-    
+
     var title = 'Not Found'
     if (document.getElementsByClassName("a-size-base-plus a-color-base a-text-normal")[index]) {
       var title = document
@@ -54,7 +54,7 @@ const getAmazonProducts = async (keyword) => {
         .innerHTML;
     }
 
-    products.push({ image, title, rating, reviews });
+    if (image.endsWith('.jpg')) { products.push({ image, title, rating, reviews }) }
   }
 
   // Than return the array of products with the status 200
