@@ -1,21 +1,6 @@
 <a name="readme-top"></a>
-
-
-
-
-<!-- Space -->
-<!-- Space -->
-<!-- Space -->
-<!-- Space -->
-<!-- Space -->
-<!-- Space -->
-
-
-
-
-
 <!-- PROJECT LOGO -->
-<div align="center">
+<div margin-top="40px" align="center">
   <h1 align="center">Amazon Scraper</h1>
 </div>
 
