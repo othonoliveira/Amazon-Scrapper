@@ -32,10 +32,13 @@ const getAmazonProducts = async (keyword) => {
   const products = [];
 
   for (var index = 0; index < productsCount; index++) {
-    const image = document.getElementsByClassName("s-image")[index]
-      .getAttribute('src') ?? 'Not Found';
+    // This have if statements because its needed to check if the they exist, because if not it will throw a error
 
-    // This have if statements because its needed to check if the they exist, because if not it will throw a error since we need to get the innerHTML
+    var image = 'Not Found';
+    if (document.getElementsByClassName("s-image")[index]) {
+      var image = document.getElementsByClassName("s-image")[index]
+        .getAttribute('src');
+    }
 
     var title = 'Not Found'
     if (document.getElementsByClassName("a-size-base-plus a-color-base a-text-normal")[index]) {
