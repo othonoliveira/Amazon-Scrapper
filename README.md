@@ -118,7 +118,6 @@ _Below is discribes how to install and setup your app._
    ```
 
 2. Go to the frontend folder and open the app.html file
-<br>
 3. Than you can already use the page freely
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
