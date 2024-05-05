@@ -1,8 +1,8 @@
-<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <div align="center">
   <h1 align="center">Amazon Scraper</h1>
 </div>
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 <details>
