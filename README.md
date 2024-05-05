@@ -2,6 +2,14 @@
 
 
 
+
+
+
+
+
+
+
+
 <!-- PROJECT LOGO -->
 <div align="center">
   <h1 align="center">Amazon Scraper</h1>
